@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-//测试git
+//测试
 @SpringBootApplication
 @EnableSwagger2
 @EnableDiscoveryClient
