@@ -36,7 +36,7 @@ public class SkuInfoEntity implements Serializable {
 	/**
 	 * 
 	 */
-	@ApiModelProperty(name = "skuCode",value = "")
+	@ApiModelProperty(name = "skuCode")
 	private String skuCode;
 	/**
 	 * sku名称

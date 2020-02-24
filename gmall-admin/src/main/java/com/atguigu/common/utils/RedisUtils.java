@@ -11,8 +11,10 @@ package com.atguigu.common.utils;
 import com.google.gson.Gson;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.*;
+import org.springframework.http.converter.json.GsonBuilderUtils;
 import org.springframework.stereotype.Component;
 
+import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
 
 /**

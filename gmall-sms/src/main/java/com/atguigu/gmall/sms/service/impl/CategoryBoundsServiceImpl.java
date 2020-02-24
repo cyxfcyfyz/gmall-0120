@@ -17,6 +17,8 @@ import com.atguigu.gmall.sms.service.CategoryBoundsService;
 @Service("categoryBoundsService")
 public class CategoryBoundsServiceImpl extends ServiceImpl<CategoryBoundsDao, CategoryBoundsEntity> implements CategoryBoundsService {
 
+
+
     @Override
     public PageVo queryPage(QueryCondition params) {
         IPage<CategoryBoundsEntity> page = this.page(

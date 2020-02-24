@@ -15,6 +15,8 @@ public class RedisTest {
 	@Autowired
 	private RedisUtils redisUtils;
 
+
+
 	@Test
 	public void contextLoads() {
 		SysUserEntity user = new SysUserEntity();
